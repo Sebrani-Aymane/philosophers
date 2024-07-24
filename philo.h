@@ -31,7 +31,6 @@ typedef struct s_data
     t_philo *philosophers;
 } t_data;
 
-// Function prototypes
 long current_time(void);
 void usleep_ms(long ms);
 void *philosopher_routine(void *arg);
